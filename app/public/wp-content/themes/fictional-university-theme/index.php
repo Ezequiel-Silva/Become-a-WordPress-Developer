@@ -7,4 +7,5 @@
         <hr>
     <?php
     }
+    get_footer();
 ?>
