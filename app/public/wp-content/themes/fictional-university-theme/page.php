@@ -14,9 +14,9 @@
 
         <div class="container container--narrow page-section">
             <?php
-                echo get_the_ID(),'<br>';
-                echo wp_get_post_parent_id(),'<br>';
-                echo wp_get_post_parent_id(get_the_ID());
+                if(wp_get_post_parent_id(get_the_ID())){
+                    echo "I am a child page.";
+                }
             ?>
             <div class="metabox metabox--position-up metabox--with-home-link">
                 <p>
