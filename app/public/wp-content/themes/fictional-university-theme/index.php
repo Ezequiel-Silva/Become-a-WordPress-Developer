@@ -5,6 +5,10 @@
             echo $x * 2,'<br>';
         } 
         doubleMeEcho(4);
+        function doubleMeReturn($x){
+            return $x * 2;
+        } 
+        echo doubleMeReturn(25);
     ?>
 
     <div class="page-banner">
