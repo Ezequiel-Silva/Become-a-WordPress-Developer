@@ -8,7 +8,9 @@
         function doubleMeReturn($x){
             return $x * 2;
         } 
-        echo doubleMeReturn(25);
+        echo doubleMeReturn(25),'<br>';
+        $magicalNumber = doubleMeReturn(10);
+        echo 'magicalNumer:',$magicalNumber;
     ?>
 
     <div class="page-banner">
