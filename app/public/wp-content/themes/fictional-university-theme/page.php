@@ -26,7 +26,16 @@
             <div class="page-links">
                 <h2 class="page-links__title"><a href="#">About Us</a></h2>
                 <ul class="min-list">
-                    <?php wp_list_pages(); ?>
+                    <?php
+                        $animalSounds = array(
+                            'cat' => 'meow',
+                            'dog' => 'bark',
+                            'pig' => 'oink'
+                        );
+                        echo $animalSounds['dog'];                
+                        wp_list_pages(); 
+                        //Ainda não salvei
+                    ?>
                 </ul>
             </div>
 
