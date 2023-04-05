@@ -1,24 +1,17 @@
     <?php get_header(); ?>
 
-    <?php 
-        function doubleMeEcho($x){
-            echo $x * 2,'<br>';
-        } 
-        doubleMeEcho(4);
-        function doubleMeReturn($x){
-            return $x * 2;
-        } 
-        echo doubleMeReturn(25),'<br>';
-        $magicalNumber = doubleMeReturn(10);
-        echo 'magicalNumer:',$magicalNumber,'<br>';
-        if(doubleMeReturn(12)==24){
-            echo "The function is performing the math correctl.","<br>";
-        }
-        function tripleMeReturn($x){
-            return $x * 3;
-        }
-        echo tripleMeReturn(doubleMeReturn(5));
+    <?php
+        the_title();
+        echo '<br>';
+        get_the_title();
+        echo '<br>';
+
+        the_ID();
+        echo '<br>';
+        get_the_id();
+        echo '<br>';
     ?>
+
 
     <div class="page-banner">
         <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/images/library-hero.jpg') ?>)"></div>
