@@ -3,12 +3,12 @@
     <?php
         the_title();
         echo '<br>';
-        get_the_title();
+        echo get_the_title();
         echo '<br>';
 
         the_ID();
         echo '<br>';
-        get_the_id();
+        echo get_the_id();
         echo '<br>';
     ?>
 
