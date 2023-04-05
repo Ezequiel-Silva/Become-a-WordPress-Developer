@@ -24,7 +24,7 @@
             <?php } ?>
 
             <div class="page-links">
-                <h2 class="page-links__title"><a href="#">About Us</a></h2>
+                <h2 class="page-links__title"><a href="<?php echo get_permalink($theParent) ?>"><?php echo get_the_title($theParent); ?></a></h2>
                 <ul class="min-list">
                     <?php  
                         if($theParent){
