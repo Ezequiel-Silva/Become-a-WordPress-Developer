@@ -12,8 +12,12 @@
         $magicalNumber = doubleMeReturn(10);
         echo 'magicalNumer:',$magicalNumber,'<br>';
         if(doubleMeReturn(12)==24){
-            echo "The function is performing the math correctl.";
+            echo "The function is performing the math correctl.","<br>";
         }
+        function tripleMeReturn($x){
+            return $x * 3;
+        }
+        echo tripleMeReturn(doubleMeReturn(5));
     ?>
 
     <div class="page-banner">
