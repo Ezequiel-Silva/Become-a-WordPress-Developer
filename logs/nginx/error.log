@@ -1,0 +1,1 @@
+2023/04/05 08:12:35 [error] 16464#13960: *109 directory index of "C:/Users/User/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/images/" is forbidden, client: 127.0.0.1, server: , request: "GET /wp-content/themes/fictional-university-theme/images/ HTTP/1.1", host: "fictional-university.local:10005"
