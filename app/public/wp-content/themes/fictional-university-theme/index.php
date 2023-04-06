@@ -15,7 +15,7 @@
                 <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
             </h2>
             <div class="metabox">
-                <p>Posted by <?php the_author_posts_link(); ?> on 6.8.17 in News</p>
+                <p>Posted by <?php the_author_posts_link(); ?> on <?php the_time('F'); ?> in News</p>
             </div>
             <div class="generic-content">
                 <?php the_excerpt(); ?>
