@@ -8,4 +8,7 @@
         </div>
     </div>
 </div>
+<div class="container container–narrow page-section">
+    Hello
+</div>
 <?php get_footer(); ?>
