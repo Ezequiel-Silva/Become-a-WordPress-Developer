@@ -14,6 +14,12 @@
             <h2>
                 <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
             </h2>
+            <div class="metabox">
+                <p>Posted by Brad on 6.8.17 in News</p>
+            </div>
+            <div class="generic-content">
+                <?php the_excerpt(); ?>
+            </div>
         </div>
     <?php } ?>
 </div>
