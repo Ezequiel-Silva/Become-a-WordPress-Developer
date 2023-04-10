@@ -4,9 +4,9 @@
     <div class="page-banner__content container container--narrow">
         <h1 class="page-banner__title">
             <?php if(is_category()){
-                echo "category name will go here";
+                single_cat_title();
             } if(is_author()) {
-                echo "author name will go here";
+                the_author();
             } ?>
         </h1>
         <div class="page-banner__intro">
