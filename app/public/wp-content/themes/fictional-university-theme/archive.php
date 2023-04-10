@@ -6,7 +6,7 @@
             <?php if(is_category()){
                 single_cat_title();
             } if(is_author()) {
-                the_author();
+                echo "Posts by "; the_author();
             } ?>
         </h1>
         <div class="page-banner__intro">
