@@ -43,6 +43,10 @@
         <div class="full-width-split__inner">
             <h2 class="headline headline--small-plus t-center">From Our Blogs</h2>
             <?php while(have_posts()){
+                $homepagePosts = new WP_Query();
+                $dog = new Animal();
+                $cat = new Animal();
+                $dog->drinkWater();
                 the_post(); ?>
                 <li><?php the_title(); ?></li>
             <?php } ?>
