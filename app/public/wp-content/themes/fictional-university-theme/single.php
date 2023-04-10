@@ -14,9 +14,9 @@
         <div class="container container--narrow page-section">
             <div class="metabox metabox--position-up metabox--with-home-link">
                 <p>
-                    <a class="metabox__blog-home-link" href="<?php get_permalink($theParent) ?>">
+                    <a class="metabox__blog-home-link" href="<?php site_url('/blog'); ?>">
                         <i class="fa fa-home" aria-hidden="true"></i> 
-                        Back to <?php echo get_the_title($theParent); ?>
+                        Blog Home 
                     </a> 
                     <span class="metabox__main">
                         <?php the_title(); ?>
