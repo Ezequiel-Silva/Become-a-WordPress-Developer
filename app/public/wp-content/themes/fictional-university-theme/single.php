@@ -19,7 +19,7 @@
                         Blog Home 
                     </a> 
                     <span class="metabox__main">
-                        <?php the_title(); ?>
+                    Posted by <?php the_author_posts_link(); ?> on <?php the_time('j.n.y'); ?> in <?php echo get_the_category_list(', '); ?>
                     </span>
                 </p>
             </div>
