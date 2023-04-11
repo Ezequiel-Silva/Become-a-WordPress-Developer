@@ -19,7 +19,8 @@
             'public' => true,
             'labels' => array(
                 'name' => 'Events'
-            )
+            ),
+            'menu_icon' => 'dashicons-calendar'
         ));
     }
     add_action('init','university_post_types');
