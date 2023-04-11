@@ -44,7 +44,7 @@
             <h2 class="headline headline--small-plus t-center">From Our Blogs</h2>
             <?php 
             $homepagePosts = new WP_Query(array(
-                'post_type' => 'post'
+                'post_type' => 'page'
             ));
             while($homepagePosts->have_posts()){
                 $homepagePosts->the_post(); ?>
