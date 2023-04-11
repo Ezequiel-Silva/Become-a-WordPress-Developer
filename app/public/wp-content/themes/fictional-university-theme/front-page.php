@@ -44,8 +44,7 @@
             <h2 class="headline headline--small-plus t-center">From Our Blogs</h2>
             <?php 
             $homepagePosts = new WP_Query(array(
-                'posts_per_page' => 2,
-                'category_name' => 'awards'
+                'post_type' => 'post'
             ));
             while($homepagePosts->have_posts()){
                 $homepagePosts->the_post(); ?>
