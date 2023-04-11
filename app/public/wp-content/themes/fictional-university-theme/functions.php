@@ -14,4 +14,10 @@
         add_theme_support('title-tag');
     }
     add_action('after_setup_theme','university_features');
+    function university_post_types(){
+        register_post_type('event', array(
+            'public' => true
+        ));
+    }
+    add_action('init','university_post_types');
 ?>
