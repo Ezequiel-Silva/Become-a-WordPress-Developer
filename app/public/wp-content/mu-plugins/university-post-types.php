@@ -4,7 +4,8 @@
             'public' => true,
             'labels' => array(
                 'name' => 'Events',
-                'add_new_item' => 'Adicionar novo evento'
+                'add_new_item' => 'Adicionar novo evento',
+                'edit_item' => 'Editar evento'
             ),
             'menu_icon' => 'dashicons-calendar'
         ));
