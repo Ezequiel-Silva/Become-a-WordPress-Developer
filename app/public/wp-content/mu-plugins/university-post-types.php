@@ -6,7 +6,8 @@
                 'name' => 'Events',
                 'add_new_item' => 'Adicionar novo evento',
                 'edit_item' => 'Editar evento',
-                'all_items' => 'Todos os eventos'
+                'all_items' => 'Todos os eventos',
+                'singular_name' => 'Evento'
             ),
             'menu_icon' => 'dashicons-calendar'
         ));
