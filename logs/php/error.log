@@ -25,3 +25,10 @@ Stack trace:
 [06-Apr-2023 12:25:18 UTC] PHP Parse error:  syntax error, unexpected token ":", expecting ")" in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\header.php on line 19
 [10-Apr-2023 14:01:32 UTC] PHP Warning:  Undefined variable $theParent in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single.php on line 17
 [10-Apr-2023 14:01:32 UTC] PHP Warning:  Undefined variable $theParent in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single.php on line 19
+[11-Apr-2023 11:26:11 UTC] PHP Fatal error:  Uncaught Error: Class "Animal" not found in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php:47
+Stack trace:
+#0 C:\Users\User\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\User\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\User\\L...')
+#2 C:\Users\User\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\User\\L...')
+#3 {main}
+  thrown in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php on line 47
