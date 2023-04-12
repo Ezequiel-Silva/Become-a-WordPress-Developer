@@ -20,9 +20,9 @@
                     'post_type' => 'event'
                 )); 
                 while($homepageEvents->have_posts()){
-                    $homepageEvents->the_post();
-                }
-            ?>
+                    $homepageEvents->the_post();?>
+                    <li><?php the_title(); ?></li>
+            <?php } ?>
             <div class="event-summary">
             <a class="event-summary__date t-center" href="#">
                 <span class="event-summary__month">Mar</span>
