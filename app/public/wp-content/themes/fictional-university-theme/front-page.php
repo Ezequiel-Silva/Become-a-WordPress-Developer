@@ -17,7 +17,8 @@
             <?php
                 $homepageEvents = new WP_Query(array(
                     'posts_per_page' => 2,
-                    'post_type' => 'event'
+                    'post_type' => 'event',
+                    'orderby' => 'title'
                 )); 
                 while($homepageEvents->have_posts()){
                     $homepageEvents->the_post();?>
