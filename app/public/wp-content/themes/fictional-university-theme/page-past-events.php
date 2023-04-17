@@ -46,7 +46,9 @@
             </div>
         </div>
     <?php }
-    echo paginate_links();
+    echo paginate_links(array(
+        'total' => $pastEvents->max_num_pages
+    ));
     ?>
 </div>
 <?php get_footer(); ?>
