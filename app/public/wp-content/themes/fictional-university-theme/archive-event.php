@@ -30,5 +30,6 @@
     <?php }
     echo paginate_links();
     ?>
+    <p>Looking for a recap of past events? <a href="#">Check out our past events archive</a>.</p>
 </div>
 <?php get_footer(); ?>
