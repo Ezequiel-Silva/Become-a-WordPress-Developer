@@ -10,8 +10,20 @@
 </div>
 <div class="container container–narrow page-section">
     <?php
+    $today = date('Ymd');
     $pastEvents = new WP_Query(array(
-        'post_type' => 'event'
+        'post_type' => 'event',
+        'meta_key' => 'event_date',
+        'orderby' => 'meta_value_num',
+        'order' => 'ASC',
+        'meta_query' => array(
+            array(
+                'key' => 'event_date',
+                'compare' => '<',
+                'value' => $today,
+                'type' => 'numeric'
+            )
+        )
     ));
     while($pastEvents->have_posts()){ 
         $pastEvents->the_post(); ?>
