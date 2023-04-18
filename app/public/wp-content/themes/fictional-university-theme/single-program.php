@@ -42,9 +42,9 @@
                             'type' => 'numeric'
                         ),
                         array(
-                            'key' => '',
-                            'compare' => '',
-                            'value' => ''
+                            'key' => 'related_programs',
+                            'compare' => 'LIKE',
+                            'value' => '"' . get_the_ID() . '"'
                         )
                     )
                 )); 
