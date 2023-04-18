@@ -26,6 +26,10 @@
             <div class="generic-content">
                 <?php the_content(); ?>
             </div>
+            <?php 
+            $relatedPrograms = get_field('related_programs');
+            print_r($relatedPrograms);
+            ?>
         </div>
     <?php }
     get_footer();
