@@ -50,6 +50,7 @@
                 <?php }
                 }
                 //
+                wp_reset_postdata();
                 $today = date('Ymd');
                 $homepageEvents = new WP_Query(array(
                     'posts_per_page' => 2,
