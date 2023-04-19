@@ -27,7 +27,7 @@
                 <?php the_content(); ?>
             </div>
             <?php
-                //
+                
                 $relatedProfessors = new WP_Query(array(
                     'posts_per_page' => -1,
                     'post_type' => 'professor',
@@ -49,7 +49,7 @@
                     <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
                 <?php }
                 }
-                //
+                
                 wp_reset_postdata();
                 $today = date('Ymd');
                 $homepageEvents = new WP_Query(array(
