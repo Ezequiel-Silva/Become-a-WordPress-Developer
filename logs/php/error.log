@@ -40,3 +40,6 @@ Stack trace:
 [12-Apr-2023 19:35:17 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\Users\User\Local Sites\fictional-university\app\public\wp-includes\class-wp-post-type.php on line 612
 [12-Apr-2023 19:35:32 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\Users\User\Local Sites\fictional-university\app\public\wp-includes\class-wp-post-type.php on line 612
 [18-Apr-2023 18:20:52 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-event.php on line 35
+[20-Apr-2023 17:52:25 UTC] PHP Warning:  Undefined array key "size" in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\plugins\manual-image-crop\lib\ManualImageCropEditorWindow.php on line 39
+[20-Apr-2023 17:54:16 UTC] PHP Warning:  Undefined array key "size" in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\plugins\manual-image-crop\lib\ManualImageCropEditorWindow.php on line 39
+[20-Apr-2023 18:11:39 UTC] PHP Warning:  Undefined array key "size" in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\plugins\manual-image-crop\lib\ManualImageCropEditorWindow.php on line 39
