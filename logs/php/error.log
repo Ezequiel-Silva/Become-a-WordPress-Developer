@@ -50,3 +50,5 @@ Stack trace:
 #2 C:\Users\User\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\User\\L...')
 #3 {main}
   thrown in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php on line 8
+[22-Apr-2023 23:33:56 UTC] PHP Warning:  Undefined array key "size" in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\plugins\manual-image-crop\lib\ManualImageCropEditorWindow.php on line 39
+[23-Apr-2023 23:14:01 UTC] Erro de evento de reagendamento do cron para o gancho: wp_site_health_scheduled_check, código de erro: could_not_set, mensagem de erro: Não foi possível salvar a lista de evento do cron, dados: {"schedule":"weekly","args":[],"interval":604800}
