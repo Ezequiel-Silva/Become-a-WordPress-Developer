@@ -1,11 +1,13 @@
 <?php
-    function pageBanner(){
-        // php logic will live here ?>
+    function pageBanner($args){
+        if(!$args['title']){
+            $args['title'] = get_the_title();
+        } ?>
         <div class="page-banner">
             <div class="page-banner__bg-image" style="background-image: url(<?php $pageBannerImage = get_field('page_banner_background_image'); echo $pageBannerImage['sizes']['pageBanner']; ?>)"></div>
             <div class="page-banner__content container container--narrow">
                 <!-- <?php print_r($pageBannerImage); ?> -->
-                <h1 class="page-banner__title"><?php the_title(); ?></h1>
+                <h1 class="page-banner__title"><?php echo $args['title'] ?></h1>
                 <div class="page-banner__intro">
                     <p><?php the_field('page_banner_subtitle'); ?></p>
                 </div>
