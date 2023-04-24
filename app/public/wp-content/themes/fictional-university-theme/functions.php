@@ -1,5 +1,5 @@
 <?php
-    function pageBanner($args){
+    function pageBanner($args = null){
         if(!$args['title']){
             $args['title'] = get_the_title();
         }

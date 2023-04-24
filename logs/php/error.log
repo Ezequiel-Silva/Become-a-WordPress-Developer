@@ -70,3 +70,39 @@ Stack trace:
 [24-Apr-2023 13:05:33 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
 [24-Apr-2023 13:05:36 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
 [24-Apr-2023 13:05:56 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[24-Apr-2023 13:11:43 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 5 and exactly 1 expected in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php:2
+Stack trace:
+#0 C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php(5): pageBanner()
+#1 C:\Users\User\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\User\\L...')
+#2 C:\Users\User\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\User\\L...')
+#3 C:\Users\User\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\User\\L...')
+#4 {main}
+  thrown in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 2
+[24-Apr-2023 13:14:32 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[24-Apr-2023 13:14:32 UTC] PHP Warning:  Undefined array key "subtitle" in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 6
+[24-Apr-2023 13:14:32 UTC] PHP Warning:  Undefined array key "photo" in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 9
+[24-Apr-2023 13:14:32 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[24-Apr-2023 13:14:50 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[24-Apr-2023 13:14:50 UTC] PHP Warning:  Undefined array key "subtitle" in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 6
+[24-Apr-2023 13:14:50 UTC] PHP Warning:  Undefined array key "photo" in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 9
+[24-Apr-2023 13:14:50 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[24-Apr-2023 13:14:59 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php:3
+Stack trace:
+#0 C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php(5): pageBanner()
+#1 C:\Users\User\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\User\\L...')
+#2 C:\Users\User\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\User\\L...')
+#3 C:\Users\User\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\User\\L...')
+#4 {main}
+  thrown in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[24-Apr-2023 13:15:04 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php:3
+Stack trace:
+#0 C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php(5): pageBanner()
+#1 C:\Users\User\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\User\\L...')
+#2 C:\Users\User\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\User\\L...')
+#3 C:\Users\User\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\User\\L...')
+#4 {main}
+  thrown in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[24-Apr-2023 13:15:12 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[24-Apr-2023 13:15:12 UTC] PHP Warning:  Undefined array key "subtitle" in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 6
+[24-Apr-2023 13:15:12 UTC] PHP Warning:  Undefined array key "photo" in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 9
+[24-Apr-2023 13:15:12 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
