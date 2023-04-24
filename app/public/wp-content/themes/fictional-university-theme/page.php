@@ -2,7 +2,10 @@
     get_header();
     while(have_posts()){
         the_post(); 
-        pageBanner(); ?>
+        pageBanner(array(
+            'title' => 'Hello there this os the title',
+            'subtitle' => 'Hi, this is the subtitle'
+        )); ?>
 
         <div class="container container--narrow page-section">
             <?php
