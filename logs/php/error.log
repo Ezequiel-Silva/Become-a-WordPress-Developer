@@ -66,3 +66,7 @@ Stack trace:
 [24-Apr-2023 12:15:53 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 10
 [24-Apr-2023 12:15:56 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 10
 [24-Apr-2023 12:15:56 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 10
+[24-Apr-2023 13:03:16 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[24-Apr-2023 13:05:33 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[24-Apr-2023 13:05:36 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[24-Apr-2023 13:05:56 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19

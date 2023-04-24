@@ -4,7 +4,8 @@
         the_post(); 
         pageBanner(array(
             'title' => 'Hello there this os the title',
-            'subtitle' => 'Hi, this is the subtitle'
+            'subtitle' => 'Hi, this is the subtitle',
+            'photo' => 'https://images.unsplash.com/photo-1493246507139-91e8fad9978e?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop='
         )); ?>
 
         <div class="container container--narrow page-section">
