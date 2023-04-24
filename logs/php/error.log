@@ -117,3 +117,10 @@ Stack trace:
 [24-Apr-2023 16:06:47 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
 [24-Apr-2023 16:06:49 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
 [24-Apr-2023 16:08:04 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[24-Apr-2023 16:16:07 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[24-Apr-2023 16:17:06 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[24-Apr-2023 16:18:08 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[24-Apr-2023 16:18:44 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[24-Apr-2023 16:18:46 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[24-Apr-2023 16:19:05 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[24-Apr-2023 16:26:05 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
