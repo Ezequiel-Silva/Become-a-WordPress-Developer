@@ -1,5 +1,22 @@
 <?php
     function university_post_types(){
+        // Campus Post Type
+        register_post_type('campus', array(
+            'supports' => array('title','editor','excerpt'),
+            'rewrite' => array('slug' => 'campusus'),
+            'has_archive' => true,
+            'public' => true,
+            'show_in_rest' => true,
+            'labels' => array(
+                'name' => 'Campusus',
+                'add_new_item' => 'Adicionar novo campus',
+                'edit_item' => 'Editar campus',
+                'all_items' => 'Todos os campi',
+                'singular_name' => 'Campi'
+            ),
+            'menu_icon' => 'dashicons-location-alt'
+        ));
+
         // Event Post Type
         register_post_type('event', array(
             'supports' => array('title','editor','excerpt'),
