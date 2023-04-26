@@ -8,7 +8,9 @@ pageBanner(array(
     <ul class="link-list min-list">
         <?php while(have_posts()){ 
             the_post(); ?>
-            <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+            <li><a href="<?php the_permalink(); ?>"><?php the_title(); 
+            $mapLocation = get_field('map_location');
+            print_r($mapLocation); ?></a></li>
         <?php }
         echo paginate_links();
         ?>
