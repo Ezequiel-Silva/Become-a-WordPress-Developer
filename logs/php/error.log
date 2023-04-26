@@ -139,3 +139,24 @@ Stack trace:
 [24-Apr-2023 19:29:14 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
 [24-Apr-2023 19:29:16 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
 [24-Apr-2023 19:34:53 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[25-Apr-2023 19:57:29 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[25-Apr-2023 19:57:47 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[25-Apr-2023 19:57:50 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[25-Apr-2023 20:00:33 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[25-Apr-2023 20:01:24 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[26-Apr-2023 13:34:42 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "universityMapKey" not found or invalid function name in C:\Users\User\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\Users\User\Local Sites\fictional-university\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#1 C:\Users\User\Local Sites\fictional-university\app\public\wp-content\plugins\advanced-custom-fields\includes\fields\class-acf-field-google-map.php(83): apply_filters('acf/fields/goog...', Array)
+#2 C:\Users\User\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(306): acf_field_google_map->input_admin_enqueue_scripts()
+#3 C:\Users\User\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 C:\Users\User\Local Sites\fictional-university\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\User\Local Sites\fictional-university\app\public\wp-content\plugins\advanced-custom-fields\includes\assets.php(383): do_action('acf/input/admin...')
+#6 C:\Users\User\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(308): ACF_Assets->enqueue_scripts('post.php')
+#7 C:\Users\User\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\User\Local Sites\fictional-university\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\User\Local Sites\fictional-university\app\public\wp-admin\admin-header.php(118): do_action('admin_enqueue_s...', 'post.php')
+#10 C:\Users\User\Local Sites\fictional-university\app\public\wp-admin\edit-form-advanced.php(425): require_once('C:\\Users\\User\\L...')
+#11 C:\Users\User\Local Sites\fictional-university\app\public\wp-admin\post.php(206): require('C:\\Users\\User\\L...')
+#12 {main}
+  thrown in C:\Users\User\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 308
