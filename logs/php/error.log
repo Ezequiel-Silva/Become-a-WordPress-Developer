@@ -160,3 +160,7 @@ Stack trace:
 #11 C:\Users\User\Local Sites\fictional-university\app\public\wp-admin\post.php(206): require('C:\\Users\\User\\L...')
 #12 {main}
   thrown in C:\Users\User\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 308
+[26-Apr-2023 18:20:44 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[26-Apr-2023 18:20:48 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[26-Apr-2023 18:27:30 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[26-Apr-2023 18:27:53 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
