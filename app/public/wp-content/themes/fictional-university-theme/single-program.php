@@ -88,7 +88,7 @@
                     echo '<h2 class="headline headline--medium">' . get_the_title() . ' is Available At These Campuses:</h2>';
                     echo '<ul class="min-list link-list">';
                     foreach($relatedCampuses as $campus){ ?>
-                        <li><a href="<?php echo get_the_title($campus); ?>"><?php echo get_the_title($campus); ?></a></li>
+                        <li><a href="<?php echo get_the_permalink($campus); ?>"><?php echo get_the_title($campus); ?></a></li>
                     <?php }
                     echo '</ul>';
                 }
