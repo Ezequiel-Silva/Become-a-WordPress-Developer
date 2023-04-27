@@ -13,9 +13,7 @@ pageBanner(array(
                 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                 <?php echo $mapLocation['address']; ?>
             </div>
-        <?php }
-        echo paginate_links();
-        ?>
+        <?php } ?>
     </div>
 </div>
 <?php get_footer(); ?>

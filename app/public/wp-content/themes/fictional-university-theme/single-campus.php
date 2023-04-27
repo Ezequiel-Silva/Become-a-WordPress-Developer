@@ -19,6 +19,15 @@
         <div class="generic-content">
             <?php the_content(); ?>
         </div>
+        
+        <?php $mapLocation = get_field('map_location'); ?>
+        <div class="acf-map">
+            <div class="marker" data-lat="<?php echo $mapLocation['lat']; ?>" data-lng="<?php echo $mapLocation['lng']; ?>">
+                <h3><?php the_title(); ?></h3>
+                <?php echo $mapLocation['address']; ?>
+            </div>
+        </div>
+
         <?php
             $relatedProfessors = new WP_Query(array(
                 'posts_per_page' => -1,
