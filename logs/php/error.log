@@ -205,3 +205,6 @@ Stack trace:
 [27-Apr-2023 13:25:54 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
 [27-Apr-2023 13:26:13 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
 [27-Apr-2023 13:32:19 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[27-Apr-2023 14:11:51 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[27-Apr-2023 14:12:36 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[27-Apr-2023 14:17:57 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
