@@ -185,3 +185,16 @@ Stack trace:
 [26-Apr-2023 20:33:17 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
 [27-Apr-2023 11:53:55 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
 [27-Apr-2023 11:54:00 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[27-Apr-2023 12:29:31 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[27-Apr-2023 12:30:09 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[27-Apr-2023 12:50:25 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[27-Apr-2023 12:50:25 UTC] PHP Warning:  Undefined array key "end" in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\archive-campus.php on line 14
+[27-Apr-2023 12:50:25 UTC] PHP Warning:  Undefined array key "end" in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\archive-campus.php on line 14
+[27-Apr-2023 12:50:34 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[27-Apr-2023 12:50:34 UTC] PHP Warning:  Undefined array key "end" in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\archive-campus.php on line 14
+[27-Apr-2023 12:50:34 UTC] PHP Warning:  Undefined array key "end" in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\archive-campus.php on line 14
+[27-Apr-2023 12:51:33 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[27-Apr-2023 12:52:11 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[27-Apr-2023 12:55:12 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[27-Apr-2023 12:55:16 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
+[27-Apr-2023 12:55:23 UTC] PHP Warning:  Undefined variable $pageBannerImage in C:\Users\User\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 19
