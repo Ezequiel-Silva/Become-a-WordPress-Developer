@@ -10,6 +10,6 @@ import Search from "./modules/Search"
 const mobileMenu = new MobileMenu()
 const heroSlider = new HeroSlider()
 const googleMap = new GoogleMap()
-const magicalSearch = new Search()
+const search = new Search()
 
 //Allow new JS and CSS to load in browser without a traditional
